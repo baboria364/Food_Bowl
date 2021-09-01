@@ -1,0 +1,78 @@
+.card-area1{
+    text-align: center;
+    background-color: #fbc470;
+}
+.card-area1 h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    margin-top: 30px;
+}
+.card-area1 p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+}
+.card-area2{
+    padding: 150px 0px 20px 50px;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+}
+.card-area2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+.card-area2 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: #7e808c;
+    margin-bottom: 50px;
+}
+.card-area-image{
+    border-radius: 10px;
+    box-shadow: 0 0 1pt 1pt #000;
+    outline: none;
+    margin-right: 20px;
+    border: 2px solid rgb(3, 3, 3);
+}
+.footer-area1{
+    background-color: #000;
+    padding: 25px 10px 20px 40px ;
+}
+.footer-area1 p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #fff;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+}
+.footer-link a:hover{
+    transform: scale(1.005);
+    transition: transform .2s;
+    font-weight: bold;
+    color: #fff;
+}
+.footer-area-image{
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.footer-area-image:hover{
+    transform: scale(1.09);
+    transition: width .6s;  
+}
+

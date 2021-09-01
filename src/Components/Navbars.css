@@ -1,0 +1,61 @@
+.nav-buton{
+    float: right ;
+    padding-top: 10px;
+}
+.main-header{
+    background-image: url("./Images/background-animation/bg1.jpg");
+    animation: cooking 30s normal infinite; 
+    background-size: cover;
+    background-position: center center;
+    max-width: auto;
+    height: 630px;
+    padding: 20px 20px 50px 50px;
+}
+@keyframes cooking{
+    20%   {background-image: url("./Images/background-animation/bg2.jpg");}
+    40%  {background-image: url("./Images/background-animation/bg3.jpg");}
+    60%  {background-image: url("./Images/background-animation/bg4.jpg");}
+    80% {background-image: url("./Images/background-animation/bg5.jpg");}
+}
+.main-content h3{
+    margin-top: 50px;
+   color: #fff;
+   font-size: 40px;
+   font-weight: 600;
+   font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+   letter-spacing: 0;
+}
+.main-content p{
+    color: #686b78;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 1.5;
+ }
+.form-select{
+    cursor:pointer;
+    background: transparent;
+    color: #fff;
+}
+.header-cities h4{
+    color: #686b78;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+}
+.city-list{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.city-list:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+    color: #686b78;
+}

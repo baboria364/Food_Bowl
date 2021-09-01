@@ -1,11 +1,11 @@
 import React from 'react';
 import Footer from './Components/Footer';
 import Cards from './Components/Cards'
-import Carousels from './Components/Carousels';
+import Navbars from './Components/Navbars';
 const Home = () => {
     return (
         <>
-            <Carousels />
+            <Navbars />
             <Cards />
             <Footer />
         </>
