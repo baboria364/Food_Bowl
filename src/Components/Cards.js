@@ -15,6 +15,7 @@ const Cards = () => {
                     <div className="col-lg-4 col-md-4 col-sm-12 card-area1">
                         <img
                             src={card1}
+                            alt="cards"
                         />
                         <h1>No Minimum Order</h1>
                         <p>Order in for yourself or for the group, with no restrictions on order value</p>
@@ -22,6 +23,7 @@ const Cards = () => {
                     <div className="col-lg-4 col-md-4 col-sm-12 card-area1">
                         <img
                             src={card2}
+                            alt="cards"
                         />
                         <h1>Live Order Tracking</h1>
                         <p>Know where your order is at all times, from the restaurant to your doorstep</p>
@@ -29,6 +31,7 @@ const Cards = () => {
                     <div className="col-lg-4 col-md-4 col-sm-12 card-area1">
                         <img
                             src={card3}
+                            alt="cards"
                         />
                         <h1>Lightning-Fast Delivery</h1>
                         <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
@@ -41,20 +44,23 @@ const Cards = () => {
                         <img
                             className="card-area-image mt-2 me-3"
                             src={playstore}
+                            alt="cards"
                         />
                         <img
                             className="card-area-image mt-2"
                             src={apple}
+                            alt="cards"
                         />
                     </div>
                     <div className="col-lg-7 col-md-7 col-sm-12">
                         <img
                             src={delivery}
+                            alt="cards"
                             width="100%"
                         />
                     </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-lg-3 col-md-4 col-sm-4 footer-area1">
                         <p>COMPANY</p>
                         <div className="footer-link"><a href=''>About Us</a></div>
@@ -81,13 +87,15 @@ const Cards = () => {
                         <img
                             className="footer-area-image mt-5 mb-5 me-3"
                             src={playstore}
+                            alt="cards"
                         />
                         <img
                             className="footer-area-image"
                             src={apple}
+                            alt="cards"
                         />
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

@@ -2,6 +2,10 @@
     float: right ;
     padding-top: 10px;
 }
+.nav-buton:hover{
+    transform: scale(1.09);
+    outline: 1px solid #fff;
+}
 .main-header{
     background-image: url("./Images/background-animation/bg1.jpg");
     animation: cooking 30s normal infinite; 
@@ -18,7 +22,7 @@
     80% {background-image: url("./Images/background-animation/bg5.jpg");}
 }
 .main-content h3{
-    margin-top: 50px;
+    margin-top: 120px;
    color: #fff;
    font-size: 40px;
    font-weight: 600;
@@ -32,6 +36,11 @@
     font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
     letter-spacing: 1.5;
  }
+.nav-food-btn{
+     margin-top: 80px;
+     text-align: center;
+}
+
 .form-select{
     cursor:pointer;
     background: transparent;
@@ -46,16 +55,56 @@
     font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
 }
 .city-list{
+    display: inline-block;
+
+    
+}
+.city-list a{
+    text-decoration: none;
     color: #fff;
     font-size: 15px;
     font-weight: 300;
     font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
-    display: inline-block;
     margin-right: 5px;
     cursor: pointer;
+
 }
-.city-list:hover{
+.city-list a:hover{
     transform: scale(1.03);
     transition: 0.2s;
     color: #686b78;
+}
+
+.side-drawer{
+    background-color:rgb(255, 255, 255);
+}
+.cross-icon{
+    margin-bottom: 25px;
+}
+.header-text h4{
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-size:30px;
+    font-weight: 600;
+}
+.para-text {
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-size:20px;
+    font-weight: 300;
+}
+.para-text a{
+    text-decoration: none;
+    color: #fbc470;
+}
+.input-area{
+    width: 400px;
+    margin-top: 25px;
+    height: 60px;
+}
+.login-btn{
+    width: 400px;
+    margin-top: 25px;
+    height: 40px;
+    color: #fff;
+    background-color:#fbc470 ;
+
 }
